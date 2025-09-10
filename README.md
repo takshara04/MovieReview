@@ -1,11 +1,14 @@
-# MovieReview
+###`README.md` 
+
+````markdown
+# 🎬 Movie Review Classification
 
 Classified **IMDB movie reviews** as **positive** or **negative** using **TF-IDF vectorization** and a **Multinomial Naïve Bayes** classifier, achieving **97% accuracy**.  
 Automated preprocessing steps and reduced overfitting risk by ~15%, with results visualized through **WordClouds** and a **confusion matrix**.
 
 ---
 
-# Key Highlights
+## 📌 Key Highlights
 - **97% Accuracy** with TF-IDF + Multinomial Naïve Bayes
 - **Automated Preprocessing**: Tokenization, stopword removal, stemming
 - **Overfitting Mitigation**: Feature selection and stratified train-test split
@@ -13,7 +16,7 @@ Automated preprocessing steps and reduced overfitting risk by ~15%, with results
 
 ---
 
-#Tech Stack
+## 🛠️ Tech Stack
 - **Language:** Python  
 - **Libraries:**  
   `pandas`, `numpy`, `nltk`, `scikit-learn`,  
@@ -21,14 +24,14 @@ Automated preprocessing steps and reduced overfitting risk by ~15%, with results
 
 ---
 
-# Results
+## 📊 Results
 - Achieved **97% classification accuracy**
 - Reduced overfitting risk by **~15%** through feature engineering
 - Visualized data distribution, key terms, and prediction performance
 
 ---
 
-# How to Run
+## 🚀 How to Run
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/your-username/moviereviews.git
@@ -49,15 +52,22 @@ Automated preprocessing steps and reduced overfitting risk by ~15%, with results
 
 ---
 
-# Sample Output
+## Sample Output
 
 * **WordClouds** of most frequent words for positive & negative reviews
 * **Confusion Matrix** to evaluate model performance
 * **Classification Report** with precision, recall, and F1-score
 
+---
+
+## Future Work
+
+* Experiment with deep learning models (LSTM, BERT)
+* Build a simple web app to classify custom reviews
+* Expand to multi-class sentiment (positive, neutral, negative)
 
 
+````
 
 
-Would you like me to give you a **`requirements.txt`** too (so that step 2 in the README actually works for others)?
-```
+````
